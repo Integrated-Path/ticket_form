@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_asco_asco,asco.asco,model_asco_asco,base.group_user,1,1,1,1

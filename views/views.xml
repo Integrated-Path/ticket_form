@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+    <record id="ASCO" model="ir.ui.view">
+        <field name="name">ASCO_CUST</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
+        <field name="arch" type="xml">
+          <field name="partner_email" position="after">
+            <field name="partner_phone"/>
+          </field>
+        </field>
+
+    </record>
+  </data>
+</odoo>
